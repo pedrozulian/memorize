@@ -8,6 +8,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 /* Module of Material Design */
 import { MaterialModule } from './material/material.module';
 
+/* Module of Core */
+import { CoreModule } from './core/core.module';
+
+/* Module of Presentation */
+import { PresentationModule } from './presentation/presentation.module';
+
 @NgModule({
   declarations: [
     AppComponent
@@ -15,7 +21,10 @@ import { MaterialModule } from './material/material.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MaterialModule,
+    CoreModule,
+    PresentationModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
