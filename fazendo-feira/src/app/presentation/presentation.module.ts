@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+import { MaterialModule } from '../material/material.module';
+
 /* Module of Base */
 import { BaseModule } from './base/base.module';
 
@@ -9,6 +11,7 @@ import { BaseModule } from './base/base.module';
   imports: [
     CommonModule,
     BaseModule,
+    MaterialModule,
   ],
   exports: [
     BaseModule,
