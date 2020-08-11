@@ -13,6 +13,7 @@ import { CoreModule } from './core/core.module';
 
 /* Module of Presentation */
 import { PresentationModule } from './presentation/presentation.module';
+import { BaseModule } from './presentation/base/base.module';
 
 @NgModule({
   declarations: [
