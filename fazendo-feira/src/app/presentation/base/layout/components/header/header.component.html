@@ -1,8 +1,10 @@
-<mat-toolbar color="primary">
+<mat-toolbar>
     <div class="logo">
         <span>Fazendo Feira</span>
     </div>
     <div class="toolbar-options">
-        <button mat-flat-button color="warn">Criar conta</button>
+        <button mat-flat-button color="warn" (click)="openDialog()">
+            Sign in
+        </button>
     </div>
 </mat-toolbar>
