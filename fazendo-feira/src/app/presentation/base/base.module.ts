@@ -7,6 +7,8 @@ import { UsersModule } from './users/users.module';
 /* Module of Layout */
 import { LayoutModule } from './layout/layout.module';
 
+/* Module of Dialog */
+import { DialogModule } from './dialog/dialog.module';
 
 @NgModule({
   declarations: [],
@@ -14,6 +16,7 @@ import { LayoutModule } from './layout/layout.module';
     CommonModule,
     UsersModule,
     LayoutModule,
+    DialogModule,
   ],
   exports: [
     UsersModule,
