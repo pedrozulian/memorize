@@ -1,0 +1,21 @@
+.sign-up {
+    margin: 3rem;
+}
+
+.sign-up > div {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.sign-up > div > p {
+    text-align: center;
+}
+
+.option-btn {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    width: 7.5rem;
+}
