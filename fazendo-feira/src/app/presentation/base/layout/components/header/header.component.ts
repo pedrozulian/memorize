@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { SignInComponent } from '../../../dialog/sign-in/sign-in.component';
+import { SignUpComponent } from '../../../dialog/sign-up/sign-up.component';
 
 @Component({
   selector: 'app-header',
@@ -14,8 +15,12 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  openDialog() {
+  openDialogSignIn() {
     this.dialog.open(SignInComponent);
+  }
+
+  openDialogSignUp() {
+    this.dialog.open(SignUpComponent);
   }
 
 }
