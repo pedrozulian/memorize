@@ -3,8 +3,12 @@
         <span>Fazendo Feira</span>
     </div>
     <div class="toolbar-options">
-        <button mat-flat-button color="warn" (click)="openDialog()">
+        <button mat-flat-button color="warn" [matMenuTriggerFor]="optionSignIn">
             Sign in
         </button>
+        <mat-menu #optionSignIn="matMenu" positon="before">
+            <button mat-menu-item (click)="openDialogSignIn()">Fazer Login</button>
+            <button mat-menu-item (click)="openDialogSignUp()">Criar Conta</button>
+        </mat-menu>
     </div>
 </mat-toolbar>
