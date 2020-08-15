@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
-import { SignInComponent } from '../../../dialog/sign-in/sign-in.component';
-import { SignUpComponent } from '../../../dialog/sign-up/sign-up.component';
+import { SignInComponent } from '../../../dialog/components/sign-in/sign-in.component';
+import { SignUpComponent } from '../../../dialog/components/sign-up/sign-up.component';
 
 @Component({
   selector: 'app-header',
