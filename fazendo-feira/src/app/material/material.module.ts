@@ -6,6 +6,8 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatDividerModule } from '@angular/material/divider';
+import { MatInputModule } from '@angular/material/input';
+import { MatGridListModule } from '@angular/material/grid-list';
 
 const material = [
   CommonModule,
@@ -14,6 +16,8 @@ const material = [
   MatDialogModule,
   MatMenuModule,
   MatDividerModule,
+  MatInputModule,
+  MatGridListModule,
 ];
 
 @NgModule({
