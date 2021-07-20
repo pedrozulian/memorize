@@ -1,11 +1,23 @@
 import React from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from 'react-router-dom';
+
 import './App.css';
-import Header from './components/header/Header';
+import Home from './pages/Home';
 
 function App() {
   return (
-    <Header></Header>
-  );
+    <Router>
+      <div className="App">
+        <Switch>
+          <Route path="/" component={Home}></Route>
+        </Switch>
+      </div>
+    </Router>
+    );
 }
 
 export default App;
