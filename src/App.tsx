@@ -6,15 +6,18 @@ import {
 } from 'react-router-dom';
 
 import './App.css';
-import Home from './pages/Home';
+import Home from './pages/Home/index';
 import { createTheme, ThemeProvider } from '@material-ui/core';
-import { lightBlue, pink } from '@material-ui/core/colors';
+import { lightBlue, pink, red, yellow } from '@material-ui/core/colors';
 
 const theme = createTheme({
   palette: {
     primary: lightBlue,
     secondary: pink,
-  }
+    warning: yellow,
+    error: red
+  },
+  spacing: value => value * 16,
 });
 
 
