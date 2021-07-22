@@ -20,7 +20,7 @@ function Home() {
             <Box justifyContent="center">
                 <Grid container>
                     <Grid item xs={12} md={6} lg={6} justifyContent="center">
-                        <Box className="main-text" mt={2}>
+                        <Box className="main-text">
                             <h1 className="animate__animated animate__slideInLeft">Fixe seu aprendizado<br />
                                 com o Memorize</h1><br />
                             <h2 className="animate__animated animate__slideInRight">Organize seus estudos e utilize os seus Flashcards!<br/>
