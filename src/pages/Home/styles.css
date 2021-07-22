@@ -17,6 +17,7 @@ body {
 @media (min-width: 1440px) {
     .main-text {
         margin-left: 15%;
+        margin-top: 20%;
     }
 
     .ud-sch {
@@ -34,6 +35,7 @@ body {
 @media (min-width: 1240px) and (max-width: 1439px) {
     .main-text {
         margin-left: 15%;
+        margin-top: 20%;
     }
 
     .ud-sch {
@@ -45,6 +47,7 @@ body {
 @media (max-width: 1239px) and (min-width: 905px) {
     .main-text {
         margin-left: 9%;
+        margin-top: 15%;
     }
 
     .ud-sch {
