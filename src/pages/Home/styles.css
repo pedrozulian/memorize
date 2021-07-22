@@ -1,0 +1,79 @@
+body {
+    background-color: hsl(185, 100%, 77%);
+}
+
+.color-pink {
+    text-decoration: none;
+    color: #c51162;
+}
+
+
+.MuiButton-containedSizeLarge {
+    margin-left: 30% !important;
+}
+
+
+/* Large */
+@media (min-width: 1440px) {
+    .main-text {
+        margin-left: 15%;
+    }
+
+    .ud-sch {
+        margin-right: 5%;
+        padding: 3rem;
+    }
+
+
+    .MuiButton-containedSizeLarge {
+        margin-left: 25% !important;
+    }
+}
+
+/* Medium */
+@media (min-width: 1240px) and (max-width: 1439px) {
+    .main-text {
+        margin-left: 15%;
+    }
+
+    .ud-sch {
+        padding: 3rem;
+    }
+}
+
+/* Small 1 */
+@media (max-width: 1239px) and (min-width: 905px) {
+    .main-text {
+        margin-left: 9%;
+    }
+
+    .ud-sch {
+        padding: 6rem;
+    }
+}
+
+/* Small 2 */
+@media (max-width: 904px) and (min-width: 600px) {
+    .main-text {
+        margin-left: 9%;
+    }
+
+    .ud-sch {
+        padding: 5rem;
+    }
+}
+
+/* Extra Small */
+@media (max-width: 599px) and (min-width: 0px) {
+    .main-text {
+        margin-left: 4%;
+    }
+
+    .ud-sch {
+        padding: 3rem;
+    }
+
+    .MuiButton-containedSizeLarge {
+        margin-left: 25% !important;
+    }
+}
