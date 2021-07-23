@@ -20,6 +20,11 @@ body {
         margin-top: 20%;
     }
 
+    .session {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
     .ud-sch {
         margin-right: 5%;
         padding: 3rem;
@@ -38,6 +43,11 @@ body {
         margin-top: 20%;
     }
 
+    .session {
+        margin-top: 15%;
+        margin-bottom: 10%;
+    }
+
     .ud-sch {
         padding: 3rem;
     }
@@ -48,6 +58,11 @@ body {
     .main-text {
         margin-left: 9%;
         margin-top: 15%;
+    }
+
+    .session {
+        margin-top: 10%;
+        margin-bottom: 10%;
     }
 
     .ud-sch {
@@ -61,6 +76,11 @@ body {
         margin-left: 9%;
     }
 
+    .session {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
     .ud-sch {
         padding: 5rem;
     }
@@ -70,6 +90,11 @@ body {
 @media (max-width: 599px) and (min-width: 0px) {
     .main-text {
         margin-left: 4%;
+    }
+
+    .session {
+        margin-top: 10%;
+        margin-bottom: 10%;
     }
 
     .ud-sch {
