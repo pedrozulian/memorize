@@ -6,7 +6,7 @@ import Box from "@material-ui/core/Box";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import { createStyles, makeStyles, Theme } from "@material-ui/core/styles";
-import undrawYoungHappy from '../../assets/drawkit/men_typing_notebook.svg';
+import dkMenNote from '../../assets/drawkit/men_typing_note.svg';
 
 const useStyles = makeStyles((theme: Theme) =>
     createStyles({
@@ -14,12 +14,7 @@ const useStyles = makeStyles((theme: Theme) =>
             '& .MuiTextField-root': {
                 marginBottom: theme.spacing(1),
                 width: '70%'
-            },
-            
-        },
-
-        btnCreate: {
-            backgroundcolor: '#ffeb3b'
+            },  
         }
     })
 );
@@ -36,12 +31,12 @@ function SignUpComponent() {
                     <TextField required id="" label="Senha" type="password"></TextField>
                     <TextField required id="" label="Confirmar senha" type="password"></TextField>
                     <Box mt={2} justifyItems="center">
-                        <Button variant="contained" color="primary" className="">CADASTRAR</Button>
+                        <Button variant="contained" color="primary">CADASTRAR</Button>
                     </Box>
                 </form>
             </Grid>
             <Grid item sm={4}>
-                <img src={undrawYoungHappy} alt="" />
+                <img src={dkMenNote} alt="illustration" />
             </Grid>
         </Grid>        
     );
